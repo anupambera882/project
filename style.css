@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul .search{
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large ;
+    margin: 0vh 2vw;
+}
+
+.navbar ul li a :hover{
+    color: red;
+}
